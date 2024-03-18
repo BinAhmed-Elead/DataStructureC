@@ -51,6 +51,8 @@ int* mergeSort(int count, int* nums){
         i++;
         l++;
     }
+    free(right);
+    free(left);
     return sorted;
 }
 
