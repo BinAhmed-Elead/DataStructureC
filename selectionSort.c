@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 void selectionSort(int count, int* nums){
     int min = 0;
     int tmp = 0;
